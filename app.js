@@ -6,7 +6,7 @@ btnNextQuote.addEventListener('click', getNextQuote);
 
 // function
 function getNextQuote() {
-    const url = 'http://localhost:8080/random-quote/random.php'
+    const url = 'random.php'
     
     fetch(url)
         .then(response => response.json())
