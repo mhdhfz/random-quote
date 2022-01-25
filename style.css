@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.qoute {
+  width: 600px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+#quoteText {
+  margin-bottom: 30px;
+}
+
+#quoteAuthor {
+  margin-bottom: 30px;
+}
+
+#nextQuote {
+  margin-top: 30px;
+  padding: 15px;
+}
